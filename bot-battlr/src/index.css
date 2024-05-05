@@ -12,6 +12,9 @@ body {
   overflow-x: scroll;
   min-height: 300px;
   max-width: 100%;
+  background-color: blue !important;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .ui.grid > .row.bot-army-row {
@@ -22,3 +25,5 @@ body {
 .ui.grid {
   padding: 0px 20px;
 }
+
+
