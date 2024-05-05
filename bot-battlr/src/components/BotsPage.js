@@ -8,7 +8,7 @@ function BotsPage() {
 
   //a utility function to fetch data from the server
   function fetchData() {
-    return fetch(`http://localhost:8002/bots`)
+    return fetch(`http://localhost:3000/bots`)
       .then((resp) => resp.json())
       .then((data) => {
         setBots(data);
