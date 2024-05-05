@@ -14,7 +14,7 @@ function BotCollection({ bots, enlistBot, deleteBot }) {
     );
   });
   return (
-    <div className="ui four column grid">
+    <div className="ui four column grid" id="bots-column">
       <div className="row">
         {/*...and here..*/}
         {botItem}

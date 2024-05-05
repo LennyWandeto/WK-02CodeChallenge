@@ -12,7 +12,7 @@ const botTypeClasses = {
 function BotSpecs({ bot }) {
   return (
     <div className="ui segment">
-      <div className="ui two column centered grid">
+      <div className="ui two column centered grid" id="">
         <div className="row">
           <div className="four wide column">
             <img

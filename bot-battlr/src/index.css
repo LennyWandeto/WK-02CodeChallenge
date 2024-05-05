@@ -11,19 +11,34 @@ body {
 .bot-army {
   overflow-x: scroll;
   min-height: 300px;
-  max-width: 100%;
+  max-width: 200%;
   background-color: blue !important;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 
 .ui.grid > .row.bot-army-row {
   flex-wrap: nowrap;
   min-height: 100%;
+  
 }
 
 .ui.grid {
   padding: 0px 20px;
 }
 
+.row{
+    display: grid !important;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+    
+}
+
+#eachCard{
+  border: 2px solid;
+  border-width: 2px;
+  border-radius: 10px;
+  border-color: black;
+  background-color: lightgrey;
+}
 
